@@ -4,15 +4,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body{
-    background-color: #E5E5E5;
-}
 @font-face {
     font-family: 'Roboto r';
     src: url(./fonts/Roboto-Regular.ttf);
 }
 header{
-    width: 1440px;
+    width: 100%;
     height: 140px;
     display: flex;
     flex-direction: column;
@@ -571,7 +568,7 @@ main .s13 .price .b8{
     margin-left: 24px;
 }
 footer{
-    width: 1440px;
+    width: 100%;
     height: 723px;
     display: flex;
     margin: 0 auto;
